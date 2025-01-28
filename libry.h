@@ -1,7 +1,28 @@
 #ifndef __MY_MATH_LIB_H
 #define __MY_MATH_LIB_H
-// Définition d'une fonction de calcul de factorielle.
+#include <stdio.h>
+#include <stdlib.h>
+
+// Dï¿½finition d'une fonction de calcul de factorielle.
 unsigned int fact( unsigned int value );
-// Définition d'une fonction d'élévation à une puissance données.
+// DÃ©finition d'une fonction d'Ã©lÃ©vation ï¿½ une puissance donnï¿½es.
 int power( int value, unsigned int pow );
+
+void bonjour();
+
+int inverse_entier( int n);
+
+float produit_reel();
+
+void parite(int n);
+
+void comparaison_entier( int a, int b);
+
+void ordre_croissant();
+
+void permutation_char( char* a, char* b);
+
+int somme(int a, int b);
+
 #endif
+
